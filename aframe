@@ -1,0 +1,1509 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-d7b19415c108234b91acac0d0c02091c860993c13687a757ee345cc1ecd3a9d1.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-d8af8b7dd51ee94d7ab4f44b513e681da376a0e759768cc5e8888151ec02ab9c.css" media="all" rel="stylesheet" />
+  
+  
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-537c466d44a69d38c4bd60c2fd2955373ef96d051bd97b2ad30ed039acc97bff.css" media="all" rel="stylesheet" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - aframevr/aframe: web framework for building virtual reality experiences.</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars3.githubusercontent.com/u/16024092?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="aframevr/aframe" property="og:title" /><meta content="https://github.com/aframevr/aframe" property="og:url" /><meta content="aframe - :a: web framework for building virtual reality experiences." property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E2D4:14F28:44A3F7:70BC5B:59036C68" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="E2D4:14F28:44A3F7:70BC5B:59036C68" name="octolytics-dimension-request_id" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="Mjg4NjI0YTM1NjAwMWNlOTJiNWQxYTM1ZTU2NDE0OTg1ZTE2ZDg4MzcwZjZmODFmN2ExMmFjYTkwY2M5NDJmZHx7InJlbW90ZV9hZGRyZXNzIjoiMTEwLjE0Ni4xMjguMTYiLCJyZXF1ZXN0X2lkIjoiRTJENDoxNEYyODo0NEEzRjc6NzBCQzVCOjU5MDM2QzY4IiwidGltZXN0YW1wIjoxNDkzMzk2NTg1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+
+  <meta name="html-safe-nonce" content="ed8719b041f7ccc055d1ee6e2235d55cc5512a40">
+
+  <meta http-equiv="x-pjax-version" content="58d922146c874a4175fc26176a233f9b">
+  
+
+    
+  <meta name="description" content="aframe - :a: web framework for building virtual reality experiences.">
+  <meta name="go-import" content="github.com/aframevr/aframe git https://github.com/aframevr/aframe.git">
+
+  <meta content="16024092" name="octolytics-dimension-user_id" /><meta content="aframevr" name="octolytics-dimension-user_login" /><meta content="42488903" name="octolytics-dimension-repository_id" /><meta content="aframevr/aframe" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="42488903" name="octolytics-dimension-repository_network_root_id" /><meta content="aframevr/aframe" name="octolytics-dimension-repository_network_root_nwo" />
+        <link href="https://github.com/aframevr/aframe/commits/master.atom" rel="alternate" title="Recent Commits to aframe:master" type="application/atom+xml">
+
+
+    <link rel="canonical" href="https://github.com/aframevr/aframe" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+          <header class="site-header js-details-container Details" role="banner">
+  <div class="container-responsive">
+    <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+
+    <button class="btn-link float-right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
+      <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+    </button>
+
+    <div class="site-header-menu">
+      <nav class="site-header-nav">
+        <a href="/features" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">
+          Features
+</a>        <a href="/business" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+          Business
+</a>        <a href="/explore" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
+          Explore
+</a>        <a href="/pricing" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
+          Pricing
+</a>      </nav>
+
+      <div class="site-header-actions">
+          <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/aframevr/aframe/search" class="js-site-search-form" data-scoped-search-url="/aframevr/aframe/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/aframevr/aframe" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+          <a class="text-bold site-header-link" href="/login?return_to=%2Faframevr%2Faframe" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+            <span class="text-gray">or</span>
+            <a class="text-bold site-header-link" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+        
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+    <div class="container repohead-details-container">
+
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Faframevr%2Faframe"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/aframevr/aframe/watchers"
+     aria-label="372 users are watching this repository">
+    372
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Faframevr%2Faframe"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/aframevr/aframe/stargazers"
+      aria-label="5389 users starred this repository">
+      5,389
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Faframevr%2Faframe"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/aframevr/aframe/network" class="social-count"
+       aria-label="1132 users forked this repository">
+      1,132
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="/aframevr" class="url fn" rel="author">aframevr</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/aframevr/aframe" data-pjax="#js-repo-pjax-container">aframe</a></strong>
+
+</h1>
+
+    </div>
+    <div class="container">
+      
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/aframevr/aframe" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /aframevr/aframe" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/aframevr/aframe/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /aframevr/aframe/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">189</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/aframevr/aframe/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /aframevr/aframe/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">20</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/aframevr/aframe/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /aframevr/aframe/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a href="/aframevr/aframe/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /aframevr/aframe/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a href="/aframevr/aframe/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /aframevr/aframe/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
+    Pulse
+</a>
+  <a href="/aframevr/aframe/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /aframevr/aframe/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Graphs
+</a>
+
+</nav>
+
+    </div>
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          
+<div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            
+<g-emoji alias="a" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f170.png" ios-version="6.0">🅰️</g-emoji> web framework for building virtual reality experiences.
+          </span>
+          <span itemprop="url"><a href="https://aframe.io/" rel="nofollow">https://aframe.io/</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/aframevr/aframe/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/search?q=topic%3Avr+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:vr">
+        vr
+      </a>
+      <a href="/search?q=topic%3Awebvr+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:webvr">
+        webvr
+      </a>
+      <a href="/search?q=topic%3Avirtualreality+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:virtualreality">
+        virtualreality
+      </a>
+      <a href="/search?q=topic%3Athreejs+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:threejs">
+        threejs
+      </a>
+      <a href="/search?q=topic%3Ahtml+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:html">
+        html
+      </a>
+      <a href="/search?q=topic%3Aframework+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:framework">
+        framework
+      </a>
+      <a href="/search?q=topic%3Aar+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ar">
+        ar
+      </a>
+      <a href="/search?q=topic%3Avive+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:vive">
+        vive
+      </a>
+      <a href="/search?q=topic%3Aoculus+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:oculus">
+        oculus
+      </a>
+      <a href="/search?q=topic%3Arift+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rift">
+        rift
+      </a>
+      <a href="/search?q=topic%3Acardboard+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:cardboard">
+        cardboard
+      </a>
+      <a href="/search?q=topic%3Agame-engine+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:game-engine">
+        game-engine
+      </a>
+      <a href="/search?q=topic%3Avirtual-reality-experiences+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:virtual-reality-experiences">
+        virtual-reality-experiences
+      </a>
+      <a href="/search?q=topic%3Aaframe+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:aframe">
+        aframe
+      </a>
+      <a href="/search?q=topic%3Aa+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:a">
+        a
+      </a>
+      <a href="/search?q=topic%3Avirtual-reality+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:virtual-reality">
+        virtual-reality
+      </a>
+      <a href="/search?q=topic%3Adaydream+org%3Aaframevr&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:daydream">
+        daydream
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/aframevr/aframe/commits/master">
+            <svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+            <span class="num text-emphasized">
+              3,067
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/aframevr/aframe/branches">
+          <svg aria-hidden="true" class="octicon octicon-git-branch" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <span class="num text-emphasized">
+            5
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/aframevr/aframe/releases">
+          <svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+          <span class="num text-emphasized">
+            11
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+          <a href="/aframevr/aframe/graphs/contributors">
+  <svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      155
+    </span>
+    contributors
+</a>
+
+      </li>
+        <li>
+          <a href="https://github.com/aframevr/aframe/blob/master/LICENSE">
+            <svg aria-hidden="true" class="octicon octicon-law" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+              MIT
+          </a>
+        </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/aframevr/aframe/search?l=javascript"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">98.2%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/aframevr/aframe/search?l=css"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">1.4%</span>
+              </a>
+          </li>
+          <li>
+              <span class="other">
+                <span class="color-block language-color" style="background-color:#ededed;"></span>
+                <span class="lang">Other</span>
+                <span class="percent">0.4%</span>
+              </span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+    <span class="language-color" aria-label="JavaScript 98.2%" style="width:98.2%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    <span class="language-color" aria-label="CSS 1.4%" style="width:1.4%; background-color:#563d7c;" itemprop="keywords">CSS</span>
+    <span class="language-color" aria-label="Other 0.4%" style="width:0.4%; background-color:#ededed;" itemprop="keywords">Other</span>
+  </div>
+
+
+<div class="file-navigation in-mid-page">
+
+    <div class="select-menu get-repo-select-menu js-menu-container float-right select-menu-modal-right">
+  <button class="btn btn-sm btn-primary select-menu-button js-menu-target"
+    title="Clone or download this repository"
+    type="button" aria-label="Clone or download this repository" tabindex="0" aria-haspopup="true">
+    <span>Clone or download</span>
+  </button>
+
+  <div class="select-menu-modal-holder dropdown-menu-content js-menu-content">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container ">
+      <div class="clone-options https-clone-options">
+
+        <h4 class="mb-1">
+          Clone with HTTPS
+          <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+            <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+          </a>
+        </h4>
+        <p class="mb-2 get-repo-decription-text">
+          Use Git or checkout with SVN using the web URL.
+        </p>
+
+        <div class="input-group js-zeroclipboard-container">
+  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="https://github.com/aframevr/aframe.git" aria-label="Clone this repository at https://github.com/aframevr/aframe.git" readonly>
+  <div class="input-group-button">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg></button>
+  </div>
+</div>
+
+      </div>
+
+
+      <div class="mt-2">
+        
+<a href="/aframevr/aframe/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/aframevr/aframe/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/aframevr/aframe/tree/docs-v0.3.0"
+               data-name="docs-v0.3.0"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                docs-v0.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/aframevr/aframe/tree/docs-v0.4.0"
+               data-name="docs-v0.4.0"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                docs-v0.4.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/aframevr/aframe/tree/docs-v0.5.0"
+               data-name="docs-v0.5.0"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                docs-v0.5.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/aframevr/aframe/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/aframevr/aframe/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.5.0"
+              data-name="v0.5.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.5.0">
+                v0.5.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.4.0"
+              data-name="v0.4.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.4.0">
+                v0.4.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.3.2"
+              data-name="v0.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.3.2">
+                v0.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.3.1"
+              data-name="v0.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.3.1">
+                v0.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.3.0"
+              data-name="v0.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.3.0">
+                v0.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.2.0"
+              data-name="v0.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.0">
+                v0.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.2.0-rc1"
+              data-name="v0.2.0-rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.0-rc1">
+                v0.2.0-rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.1.3"
+              data-name="v0.1.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.3">
+                v0.1.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.1.2"
+              data-name="v0.1.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.2">
+                v0.1.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.1.1"
+              data-name="v0.1.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.1">
+                v0.1.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/aframevr/aframe/tree/v0.1.0"
+              data-name="v0.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.0">
+                v0.1.0
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+      <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+        New pull request
+      </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/aframevr/aframe/commit/4ffee6cda5b6ddff5a64ecc87880df7c3bb5e59c" data-pjax>
+        4ffee6c
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-04-26T21:15:02Z">Apr 26, 2017</relative-time></span>
+    </span>
+
+
+    <span class="commit-author-section">
+      <img alt="@a-frobot" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/24716791?v=3&amp;s=40" width="20" />
+      <a href="/a-frobot" class="user-mention" rel="contributor">a-frobot</a>
+    </span>
+
+        <a href="/aframevr/aframe/commit/4ffee6cda5b6ddff5a64ecc87880df7c3bb5e59c" class="message" data-pjax="true" title="Update master CDN URL. (https://rawgit.com/aframevr/aframe/320bc14/dist/aframe-master.min.js)">Update master CDN URL. (</a><a href="https://rawgit.com/aframevr/aframe/320bc14/dist/aframe-master.min.js">https://rawgit.com/aframevr/aframe/320bc14/di…</a>
+          <span class="hidden-text-expander inline">
+            <button type="button" class="ellipsis-expander js-details-target">&hellip;</button>
+          </span>
+    </span>
+
+      <div class="commit-desc"><pre class="text-small"><a href="https://rawgit.com/aframevr/aframe/320bc14/dist/aframe-master.min.js">…st/aframe-master.min.js</a>)</pre></div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a href="/aframevr/aframe/tree/4ffee6cda5b6ddff5a64ecc87880df7c3bb5e59c" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/.github" class="js-navigation-open" id="01777e4a9846fea5f3fcc8fe40d44680-b9760988c8f462b030c8d5f4789222c7cb85a2f8" title=".github">.github</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/08a8952733fedd73c9c41ac8c77d278b31024225" class="message" data-pjax="true" title="move stackoverflow nudge in issue template to the bottom">move stackoverflow nudge in issue template to the bottom</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-20T06:15:03Z">Jan 20, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/dist" class="js-navigation-open" id="2a6d07eef8b10b84129b42424ed99327-e3241c08332e4c5932c80863355b434f153b2c58" title="dist">dist</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/4ffee6cda5b6ddff5a64ecc87880df7c3bb5e59c" class="message" data-pjax="true" title="Update master CDN URL. (https://rawgit.com/aframevr/aframe/320bc14/dist/aframe-master.min.js)">Update master CDN URL. (</a><a href="https://rawgit.com/aframevr/aframe/320bc14/dist/aframe-master.min.js">https://rawgit.com/aframevr/aframe/320bc14/di…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-26T21:15:02Z">Apr 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/docs" class="js-navigation-open" id="e3e2a9bfd88566b05001b02a3f51d286-2fa47ecf5339df3a21872253692cecd4f7cb6248" title="docs">docs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/c25b6bea8a3ecdb54522889312518b3ae0d7b026" class="message" data-pjax="true" title="noted that &#39;mappings&#39; keys must be lower-case">noted that 'mappings' keys must be lower-case</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-25T21:18:55Z">Apr 25, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/examples" class="js-navigation-open" id="bfebe34154a0dfd9fc7b447fc9ed74e9-41c6a19b5797dd644a637974bf38897283a534f3" title="examples">examples</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/cd735e14991aa9173b65c7209fa4bc187b1a5f44" class="message" data-pjax="true" title="add gltf model example with virtual city + animations">add gltf model example with virtual city + animations</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-28T22:56:18Z">Mar 28, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/scripts" class="js-navigation-open" id="d6c5855a62cf32a4dadbc2831f0f295f-1d54268ffce9ef165d3a5acda963d73d95883f0f" title="scripts">scripts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/9abc5d5ca958f56e023955aa1f1dfe84452195f6" class="message" data-pjax="true" title="route examples to dist/aframe-master.js">route examples to dist/aframe-master.js</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-13T11:44:43Z">Jan 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/src" class="js-navigation-open" id="25d902c24283ab8cfbac54dfa101ad31-00a6022f23565e91ced5cf9763dee80a1bfac0ad" title="src">src</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/320bc1433e815ecaa1778dd8f68f345148419f5f" class="message" data-pjax="true" title="Bump aframe-master dist/ builds. (https://github.com/aframevr/aframe/compare/e0331870988e...8abc9d50b9a4)">Bump aframe-master dist/ builds. (</a><a href="https://github.com/aframevr/aframe/compare/e0331870988e...8abc9d50b9a4" class="commit-link"><tt>e033187...8abc9d5</tt></a><a href="/aframevr/aframe/commit/320bc1433e815ecaa1778dd8f68f345148419f5f" class="message" data-pjax="true" title="Bump aframe-master dist/ builds. (https://github.com/aframevr/aframe/compare/e0331870988e...8abc9d50b9a4)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-26T21:15:01Z">Apr 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/tests" class="js-navigation-open" id="b61a6d542f9036550ba9c401c80f00ef-3b3452833975bb4acaecb4e0ce85289cf67a8e56" title="tests">tests</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/c014f3330dab04276e7aab67aaa3ef6c6ed72ff7" class="message" data-pjax="true" title="Add a test">Add a test</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-24T03:41:04Z">Apr 24, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/tree/master/vendor" class="js-navigation-open" id="7c3613dba5171cb6027c67835dd3b9d4-29ffe642a3e2ff4df54a3935d93db6e634a1f182" title="vendor">vendor</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/4276d7a575068eed02b8802c4383f8c156361df6" class="message" data-pjax="true" title="sync with upstream changes (#2476)">sync with upstream changes (</a><a href="https://github.com/aframevr/aframe/pull/2476" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/2476" data-id="213236583" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#2476</a><a href="/aframevr/aframe/commit/4276d7a575068eed02b8802c4383f8c156361df6" class="message" data-pjax="true" title="sync with upstream changes (#2476)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-10T08:28:02Z">Mar 10, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/.ackrc" class="js-navigation-open" id="fe696288a26fe16e96b008653947cf1e-730b4096641ff71314da9fb708eaeefcd7f67141" title=".ackrc">.ackrc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/6e623c72a2a866f7430f805ef9f3c995f56409d6" class="message" data-pjax="true" title="add `.ackrc` so `ack` does not search build files">add `.ackrc` so `ack` does not search build files</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-11-13T08:16:59Z">Nov 13, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/.gitattributes" class="js-navigation-open" id="fc723d30b02a4cca7a534518111c1a66-f3498ad87c1d180eacd840a3b2c5dba0aafe0f7c" title=".gitattributes">.gitattributes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/4912fcc735f82ae450f9b3fadf59b7b6ba82b64f" class="message" data-pjax="true" title="Aframe gitattributes based on conversations #1586 (#1825)
+
+* Aframe gitattributes based on conversations #1586
+
+Purpose is to fix mixed linefeeds and have cleaner
+master branch by flaging some files as binary so that git
+won't create unnecessary big diff objects. Related to #1586, #1658
+
+* Replaced CRLF's found with LF (excl. dist)
+
+This is necessary so that added .gitattributes
+could be dealt same as regular PR's and would not affect
+new clones. No action needed by Collaborators!
+Some currently open PR's may need rebase with this commit!
+Should bump new dist!">Aframe gitattributes based on conversations</a> <a href="https://github.com/aframevr/aframe/pull/1586" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/1586" data-id="162810528" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#1586</a> <a href="/aframevr/aframe/commit/4912fcc735f82ae450f9b3fadf59b7b6ba82b64f" class="message" data-pjax="true" title="Aframe gitattributes based on conversations #1586 (#1825)
+
+* Aframe gitattributes based on conversations #1586
+
+Purpose is to fix mixed linefeeds and have cleaner
+master branch by flaging some files as binary so that git
+won't create unnecessary big diff objects. Related to #1586, #1658
+
+* Replaced CRLF's found with LF (excl. dist)
+
+This is necessary so that added .gitattributes
+could be dealt same as regular PR's and would not affect
+new clones. No action needed by Collaborators!
+Some currently open PR's may need rebase with this commit!
+Should bump new dist!">(</a><a href="https://github.com/aframevr/aframe/pull/1825" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/1825" data-id="172053891" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#1825</a><a href="/aframevr/aframe/commit/4912fcc735f82ae450f9b3fadf59b7b6ba82b64f" class="message" data-pjax="true" title="Aframe gitattributes based on conversations #1586 (#1825)
+
+* Aframe gitattributes based on conversations #1586
+
+Purpose is to fix mixed linefeeds and have cleaner
+master branch by flaging some files as binary so that git
+won't create unnecessary big diff objects. Related to #1586, #1658
+
+* Replaced CRLF's found with LF (excl. dist)
+
+This is necessary so that added .gitattributes
+could be dealt same as regular PR's and would not affect
+new clones. No action needed by Collaborators!
+Some currently open PR's may need rebase with this commit!
+Should bump new dist!">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-20T10:07:57Z">Aug 20, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/.gitignore" class="js-navigation-open" id="a084b794bc0759e7a6b77810e01874f2-646b6d44abb624e5fe34b756151588a1f093b519" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/58559fb4e21c7a7bf09aa2d85607e687b6abd757" class="message" data-pjax="true" title="Update npmignore and gitignore for coverage (#1787)">Update npmignore and gitignore for coverage (</a><a href="https://github.com/aframevr/aframe/pull/1787" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/1787" data-id="170905279" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#1787</a><a href="/aframevr/aframe/commit/58559fb4e21c7a7bf09aa2d85607e687b6abd757" class="message" data-pjax="true" title="Update npmignore and gitignore for coverage (#1787)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-12T16:12:52Z">Aug 12, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/.jshintrc" class="js-navigation-open" id="4d5aa81bf4f18104bb6ea53a8b5d1f43-66a51c350879a64d0e7f05f0de54adad9c9824d9" title=".jshintrc">.jshintrc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/8b32821aa96e09e7e2463810cba4e5aef51aa907" class="message" data-pjax="true" title="Add browserify env to .jshintrc (#1831)">Add browserify env to .jshintrc (</a><a href="https://github.com/aframevr/aframe/pull/1831" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/1831" data-id="172251198" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#1831</a><a href="/aframevr/aframe/commit/8b32821aa96e09e7e2463810cba4e5aef51aa907" class="message" data-pjax="true" title="Add browserify env to .jshintrc (#1831)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-20T06:15:26Z">Aug 20, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/.nojekyll" class="js-navigation-open" id="df58da0e9919a302c9807844271746dd-e69de29bb2d1d6434b8b29ae775ad8c2e48c5391" title=".nojekyll">.nojekyll</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/ff8d05cce2dddf4454cecee8d8644ef6d3ea722b" class="message" data-pjax="true" title="allow `ghpages` npm command to push to GH Pages of fork (fixes #197)">allow `ghpages` npm command to push to GH Pages of fork (fixes</a> <a href="https://github.com/aframevr/aframe/pull/197" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/197" data-id="118110624" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#197</a><a href="/aframevr/aframe/commit/ff8d05cce2dddf4454cecee8d8644ef6d3ea722b" class="message" data-pjax="true" title="allow `ghpages` npm command to push to GH Pages of fork (fixes #197)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-09-24T21:22:08Z">Sep 24, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/.npmignore" class="js-navigation-open" id="0fd4ef892d9d4990033701887c2f9bcc-9273c1c323ff9eec46d0c778ab1f4f27e669689b" title=".npmignore">.npmignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/b22d4641c31a01c941bba66105e00804b10380ba" class="message" data-pjax="true" title="exclude dist/aframe-v* and minified dists from npm">exclude dist/aframe-v* and minified dists from npm</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-02T02:07:57Z">Feb 2, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/.travis.yml" class="js-navigation-open" id="354f30a63fb0907d4ad57269548329e3-40589c98ae24957b14a229c2f3a9008437e308fe" title=".travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/226f1fd70fc13e0b04bc75fdbdc604eb14171344" class="message" data-pjax="true" title="add node compatibility and regression test (#2484)">add node compatibility and regression test (</a><a href="https://github.com/aframevr/aframe/pull/2484" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/2484" data-id="213560976" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#2484</a><a href="/aframevr/aframe/commit/226f1fd70fc13e0b04bc75fdbdc604eb14171344" class="message" data-pjax="true" title="add node compatibility and regression test (#2484)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-15T17:15:49Z">Mar 15, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/CHANGELOG.md" class="js-navigation-open" id="4ac32a78649ca5bdd8e0ba38b7006a1e-b46e9730eb5c3a9b6e86499bf0d107ea88d55f03" title="CHANGELOG.md">CHANGELOG.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/f474635752391d85899f52e7c598048cfbe6750d" class="message" data-pjax="true" title="bump changelog for 0.5.0">bump changelog for 0.5.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-09T23:41:11Z">Feb 9, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/CODE_OF_CONDUCT.md" class="js-navigation-open" id="a1ee87dafebc22cbd96979f1b2b7e837-838c21e13c504aacebce698bf7b9add1db4bf281" title="CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/69e725cb16df73d2b1dcf02bbff3154f5d617cf7" class="message" data-pjax="true" title="adapt rust code of conduct as base for aframe code of conduct (fixes #954) (#1653)">adapt rust code of conduct as base for aframe code of conduct (fixes</a> <a href="https://github.com/aframevr/aframe/issues/954" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/954" data-id="132517167" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-07-22T05:34:53Z">Jul 22, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/CONTRIBUTING.md" class="js-navigation-open" id="6a3371457528722a734f3c51d9238c13-a3a9b992c711aa340c2488f8b12920cf371cd911" title="CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/48ff506338da159e52d8d2bf45c7e4fec2d93655" class="message" data-pjax="true" title="docs server (fixes #1818)">docs server (fixes</a> <a href="https://github.com/aframevr/aframe/issues/1818" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/1818" data-id="171826971" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#1818</a><a href="/aframevr/aframe/commit/48ff506338da159e52d8d2bf45c7e4fec2d93655" class="message" data-pjax="true" title="docs server (fixes #1818)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-31T19:36:04Z">Oct 31, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/LICENSE" class="js-navigation-open" id="9879d6db96fd29134fc802214163b95a-8571b14c9d436fc952a5992916fb05160f977dc9" itemprop="license" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/6e414e36cc716d864accbbeafb27466a044bc59c" class="message" data-pjax="true" title="Update LICENSE (#2238)">Update LICENSE (</a><a href="https://github.com/aframevr/aframe/pull/2238" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/2238" data-id="198601974" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#2238</a><a href="/aframevr/aframe/commit/6e414e36cc716d864accbbeafb27466a044bc59c" class="message" data-pjax="true" title="Update LICENSE (#2238)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-04T00:16:12Z">Jan 4, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/ORGANIZATION.md" class="js-navigation-open" id="3ec2b608fadf713fd19410abb45cb1b7-0b3d36d487dd7899122b4dffd291a10bbd065159" title="ORGANIZATION.md">ORGANIZATION.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/2de08f12dd001c3c558ab7b10a83db1e4c890285" class="message" data-pjax="true" title="organization.md file (fixes #970)">organization.md file (fixes</a> <a href="https://github.com/aframevr/aframe/issues/970" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/970" data-id="133362076" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#970</a><a href="/aframevr/aframe/commit/2de08f12dd001c3c558ab7b10a83db1e4c890285" class="message" data-pjax="true" title="organization.md file (fixes #970)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-03-20T05:19:57Z">Mar 20, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/README.md" class="js-navigation-open" id="04c6e90faac2675aa89e2176d2eec7d8-2b30e17ce7235199f529551e74acfd5575f51112" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/e747f318ceaa9074140c8bf81ee9c884b0504627" class="message" data-pjax="true" title="Corrected spelling mistake father to futher in read.md file">Corrected spelling mistake father to futher in read.md file</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-21T09:37:26Z">Apr 21, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/ROADMAP.md" class="js-navigation-open" id="38574c080d4e2eb38c49b86e6588ad98-014d5a8cd977abdd60fa50399e93051fb14f02ae" title="ROADMAP.md">ROADMAP.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/5a12d3abf66890d4d675b976deffbe14e1e2551e" class="message" data-pjax="true" title="tweak roadmap">tweak roadmap</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-20T18:56:30Z">Apr 20, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/codecov.yml" class="js-navigation-open" id="8bc9db6adba7208e25c96be322351063-6e816b76ff561cb59b2956d1383bc768b198ccef" title="codecov.yml">codecov.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/85339beeb51a0c0ccb2cb56e1e0f6b317765ab75" class="message" data-pjax="true" title="make codecov find the codecov.yml config">make codecov find the codecov.yml config</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-22T00:21:05Z">Aug 22, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/index.html" class="js-navigation-open" id="eacf331f0ffc35d4b482f1d15a887d3b-6cd2957eabede31ab52dbb442d0858a7a172adfd" title="index.html">index.html</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/5e7aef3caa609aca3ce427313f67e49f6ccf18f0" class="message" data-pjax="true" title="The Purge II: add vr-markup examples, change port to 9001">The Purge II: add vr-markup examples, change port to 9001</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-09-24T17:13:39Z">Sep 24, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/aframevr/aframe/blob/master/package.json" class="js-navigation-open" id="b9cfc7f2cdf78a7f4b91a753d10865a2-8c5d4fe78bcfb7c8b122a61e99a27d666acfdfc7" title="package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/aframevr/aframe/commit/8cb43969cc658f4108a4af81318bcb926332d0ae" class="message" data-pjax="true" title="use debug fork with no timestamp/diffing (#2550)">use debug fork with no timestamp/diffing (</a><a href="https://github.com/aframevr/aframe/pull/2550" class="issue-link js-issue-link" data-url="https://github.com/aframevr/aframe/issues/2550" data-id="219665313" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#2550</a><a href="/aframevr/aframe/commit/8cb43969cc658f4108a4af81318bcb926332d0ae" class="message" data-pjax="true" title="use debug fork with no timestamp/diffing (#2550)">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-05T21:20:41Z">Apr 5, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1 align="center"><a id="user-content-a-frame" class="anchor" href="#a-frame" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A-Frame</h1>
+<p align="center"><a href="https://aframe.io"><img width="480" alt="A-Frame" src="https://cloud.githubusercontent.com/assets/674727/21375108/2c10b308-c6e0-11e6-945e-2394beb9a8ed.png" style="max-width:100%;"></a></p>
+<p align="center"><b>A web framework for building virtual reality experiences.</b></p>
+<p align="center">
+  <a href="https://travis-ci.org/aframevr/aframe"><img src="https://camo.githubusercontent.com/115dedceb55cce8d43ffb7253d429bdd7fe53e25/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f616672616d6576722f616672616d652e7376673f7374796c653d666c61742d737175617265" alt="Build Status" data-canonical-src="https://img.shields.io/travis/aframevr/aframe.svg?style=flat-square" style="max-width:100%;"></a>
+  <a href="https://codecov.io/gh/aframevr/aframe">
+    <img src="https://camo.githubusercontent.com/b28b640de871e642ecdc5f4be261e9ccc8c0debb/68747470733a2f2f636f6465636f762e696f2f67682f616672616d6576722f616672616d652f6272616e63682f6d61737465722f67726170682f62616467652e737667" alt="Coverage Status" data-canonical-src="https://codecov.io/gh/aframevr/aframe/branch/master/graph/badge.svg" style="max-width:100%;">
+  </a>
+  <a href="https://npmjs.org/package/aframe">
+    <img src="https://camo.githubusercontent.com/7bbbbaa74ef3bc06f173d92da346e48e540d5e3a/687474703a2f2f696d672e736869656c64732e696f2f6e706d2f64742f616672616d652e7376673f7374796c653d666c61742d737175617265" alt="Downloads" data-canonical-src="http://img.shields.io/npm/dt/aframe.svg?style=flat-square" style="max-width:100%;">
+  </a>
+  <a href="https://npmjs.org/package/aframe">
+    <img src="https://camo.githubusercontent.com/4274ccb41ad65c862d572c4a73bdbcb6fabf505c/687474703a2f2f696d672e736869656c64732e696f2f6e706d2f762f616672616d652e7376673f7374796c653d666c61742d737175617265" alt="Version" data-canonical-src="http://img.shields.io/npm/v/aframe.svg?style=flat-square" style="max-width:100%;">
+  </a>
+  <a href="https://npmjs.com/package/aframe">
+    <img src="https://camo.githubusercontent.com/dac77f4efb588a9432a7e944d8625139a9a2917b/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f616672616d652e7376673f7374796c653d666c61742d737175617265" alt="License" data-canonical-src="https://img.shields.io/npm/l/aframe.svg?style=flat-square" style="max-width:100%;"></a>
+  
+</p>
+<div align="center">
+  <a href="https://aframe.io">Site</a>
+  —
+  <a href="https://aframe.io/docs/">Docs</a>
+  —
+  <a href="https://aframe.io/school/">School</a>
+  —
+  <a href="https://aframevr-slack.herokuapp.com">Slack</a>
+  —
+  <a href="https://aframe.io/blog/">Blog</a>
+  —
+  <a href="https://github.com/aframevr/awesome-aframe">awesome-aframe</a>
+</div>
+<h2><a id="user-content-examples" class="anchor" href="#examples" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
+<a href="https://aframe.io/a-painter/?url=https://ucarecdn.com/962b242b-87a9-422c-b730-febdc470f203/">
+  <img alt="A-Painter" src="https://cloud.githubusercontent.com/assets/674727/24531388/acfc3dda-156d-11e7-8563-5bd75252f70f.gif" height="190" width="32%" style="max-width:100%;">
+</a>
+<a href="https://aframe.io/a-blast/">
+  <img alt="A-Blast" src="https://cloud.githubusercontent.com/assets/674727/24531440/0336e66e-156e-11e7-95c2-f2e6ebc0393d.gif" height="190" width="32%" style="max-width:100%;">
+</a>
+<a href="https://aframe.io/a-saturday-night/">
+  <img alt="A-Saturday-Night" src="https://cloud.githubusercontent.com/assets/674727/24531477/44272daa-156e-11e7-8ef9-d750ed430f3a.gif" height="190" width="32%" style="max-width:100%;">
+</a>
+<a href="https://ngokevin.github.io/kframe/scenes/aincraft/">
+  <img alt="Aincraft" src="https://cloud.githubusercontent.com/assets/674727/24531777/25b8ff5e-1570-11e7-896c-3446d1419eb8.gif" height="190" width="32%" style="max-width:100%;">
+</a>
+<a href="https://github.com/googlecreativelab/webvr-musicalforest">
+  <img alt="Musical Forest by @googlecreativelab" src="https://cloud.githubusercontent.com/assets/674727/25109861/b8e9ec48-2394-11e7-8f2d-ea1cd9df69c8.gif" height="190" width="32%" style="max-width:100%;">
+</a>
+<a href="https://aframe-gallery.glitch.me">
+  <img alt="360 Image Gallery" src="https://cloud.githubusercontent.com/assets/674727/24572552/72f81bec-162e-11e7-9851-037d0280abdb.gif" height="190" width="32%" style="max-width:100%;">
+</a>
+<p><em>Find more examples on <a href="https://aframe.io">the homepage</a>, <a href="https://aframe.io/blog/">A Week of A-Frame</a>, and <a href="https://github.com/aframevr/awesome-aframe/"><code>awesome-aframe</code></a>.</em></p>
+<h2><a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Features</h2>
+<p><g-emoji alias="eyeglasses" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f453.png" ios-version="6.0">👓</g-emoji> <strong>Virtual Reality Made Simple</strong>: A-Frame handles the 3D and WebVR
+boilerplate required to get running across platforms including mobile, desktop,
+Vive, and Rift just by dropping in <code>&lt;a-scene&gt;</code>.</p>
+<p><g-emoji alias="heart" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2764.png" ios-version="6.0">❤️</g-emoji> <strong>Declarative HTML</strong>: HTML is easy to read and copy-and-paste. Since
+A-Frame can be used from HTML, A-Frame is accessible to everyone: web
+developers, VR enthusiasts, educators, artists, makers, kids.</p>
+<p><g-emoji alias="globe_with_meridians" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f310.png" ios-version="6.0">🌐</g-emoji> <strong>Cross-Platform</strong>: Build VR applications for Vive,
+Rift, Daydream, GearVR, and Cardboard. Don't have a headset or controllers? No
+problem! A-Frame still works on standard desktop and smartphones.</p>
+<p><g-emoji alias="electric_plug" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f50c.png" ios-version="6.0">🔌</g-emoji> <strong>Entity-Component Architecture</strong>: A-Frame is a powerful framework,
+providing a declarative, composable, reusable entity-component structure for
+three.js. While A-Frame can be used from HTML, developers have unlimited access
+to JavaScript, DOM APIs, three.js, WebVR, and WebGL.</p>
+<p><g-emoji alias="zap" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a1.png" ios-version="6.0">⚡️</g-emoji> <strong>Performance</strong>: A-Frame is optimized from the ground up for WebVR. While
+A-Frame uses HTML, Custom Elements don't touch the browser layout engine. All
+3D object updates are all done in memory with little overhead under a single
+global <code>requestAnimationFrame</code> call.</p>
+<p><g-emoji alias="hammer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f528.png" ios-version="6.0">🔨</g-emoji> <strong>Tool Agnostic</strong>: A-Frame works with normal JavaScript DOM APIs and
+therefore with all libraries such as
+<a href="https://github.com/aframevr/aframe-react/">React</a>, Vue.js, jQuery, or d3.js.
+Web developers don't have to jump ship to yet another framework, feeling right
+at home with A-Frame.</p>
+<p><g-emoji alias="mag" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f50d.png" ios-version="6.0">🔍</g-emoji> <strong>Visual Inspector</strong>: A-Frame provides a built-in visual 3D inspector
+with a workflow similar to a browser's developer tools and interface similar to
+Unity. Open up any A-Frame scene and hit <code>&lt;ctrl&gt; + &lt;alt&gt; + i</code>.</p>
+<p><g-emoji alias="package" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png" ios-version="6.0">📦</g-emoji> <strong>Registry</strong>: Reuse powerful components that other A-Frame developers
+have created and shared. The <a href="https://aframe.io/aframe-registry">A-Frame
+Registry</a> collects and curates components
+similar to the Unity Asset Store. Stand on the shoulders of giants and plug in
+components right from HTML.</p>
+<p><g-emoji alias="running_man" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3c3.png" ios-version="6.0">🏃</g-emoji> <strong>Features</strong>: Hit the ground running with A-Frame's built-in
+components such as geometries, materials, lights, animations, models,
+raycasters, shadows, positional audio, Vive / Touch / Cardboard controls. Get
+even further with community components such as particle systems, physics,
+multiuser, oceans, mountains, speech recognition, or teleportation!</p>
+<h2><a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<h3><a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
+<p>Build VR scenes in the browser with just a few lines of HTML! To start playing
+and publishing now, remix the starter example on Glitch:</p>
+<p><a href="http://glitch.com/%7Eaframe"><img src="https://cloud.githubusercontent.com/assets/674727/24572421/688f7fc0-162d-11e7-8a35-b02bc050c043.jpg" alt="Remix" style="max-width:100%;"></a></p>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">html</span>&gt;
+  &lt;<span class="pl-ent">head</span>&gt;
+<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://aframe.io/releases/0.5.0/aframe.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+  &lt;/<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">body</span>&gt;
+    &lt;<span class="pl-ent">a</span><span class="pl-e">-scene</span>&gt;
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-box</span> <span class="pl-e">position</span>=<span class="pl-s"><span class="pl-pds">"</span>-1 0.5 -3<span class="pl-pds">"</span></span> <span class="pl-e">rotation</span>=<span class="pl-s"><span class="pl-pds">"</span>0 45 0<span class="pl-pds">"</span></span> <span class="pl-e">color</span>=<span class="pl-s"><span class="pl-pds">"</span>#4CC3D9<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-box</span>&gt;
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-sphere</span> <span class="pl-e">position</span>=<span class="pl-s"><span class="pl-pds">"</span>0 1.25 -5<span class="pl-pds">"</span></span> <span class="pl-e">radius</span>=<span class="pl-s"><span class="pl-pds">"</span>1.25<span class="pl-pds">"</span></span> <span class="pl-e">color</span>=<span class="pl-s"><span class="pl-pds">"</span>#EF2D5E<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-sphere</span>&gt;
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-cylinder</span> <span class="pl-e">position</span>=<span class="pl-s"><span class="pl-pds">"</span>1 0.75 -3<span class="pl-pds">"</span></span> <span class="pl-e">radius</span>=<span class="pl-s"><span class="pl-pds">"</span>0.5<span class="pl-pds">"</span></span> <span class="pl-e">height</span>=<span class="pl-s"><span class="pl-pds">"</span>1.5<span class="pl-pds">"</span></span> <span class="pl-e">color</span>=<span class="pl-s"><span class="pl-pds">"</span>#FFC65D<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-cylinder</span>&gt;
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-plane</span> <span class="pl-e">position</span>=<span class="pl-s"><span class="pl-pds">"</span>0 0 -4<span class="pl-pds">"</span></span> <span class="pl-e">rotation</span>=<span class="pl-s"><span class="pl-pds">"</span>-90 0 0<span class="pl-pds">"</span></span> <span class="pl-e">width</span>=<span class="pl-s"><span class="pl-pds">"</span>4<span class="pl-pds">"</span></span> <span class="pl-e">height</span>=<span class="pl-s"><span class="pl-pds">"</span>4<span class="pl-pds">"</span></span> <span class="pl-e">color</span>=<span class="pl-s"><span class="pl-pds">"</span>#7BC8A4<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-plane</span>&gt;
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-sky</span> <span class="pl-e">color</span>=<span class="pl-s"><span class="pl-pds">"</span>#ECECEC<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-sky</span>&gt;
+    &lt;/<span class="pl-ent">a</span><span class="pl-e">-scene</span>&gt;
+  &lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+<p>With A-Frame's <a href="https://aframe.io/docs/0.5.0/core/">entity-component
+architecture</a>, we can drop in community
+components from the ecosystem (e.g., ocean, physics) and plug them into our
+objects straight from HTML:</p>
+<p><a href="http://glitch.com/%7Eaframe-registry"><img src="https://cloud.githubusercontent.com/assets/674727/24572421/688f7fc0-162d-11e7-8a35-b02bc050c043.jpg" alt="Remix" style="max-width:100%;"></a></p>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">html</span>&gt;
+  &lt;<span class="pl-ent">head</span>&gt;
+<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://aframe.io/releases/0.5.0/aframe.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://unpkg.com/aframe-animation-component@3.2.1/dist/aframe-animation-component.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://unpkg.com/aframe-extras.ocean@%5E3.5.x/dist/aframe-extras.ocean.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://unpkg.com/aframe-gradient-sky@1.0.4/dist/gradientsky.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+  &lt;/<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">body</span>&gt;
+    &lt;<span class="pl-ent">a</span><span class="pl-e">-scene</span>&gt;
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-entity</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>rain<span class="pl-pds">"</span></span> <span class="pl-e">particle-system</span>=<span class="pl-s"><span class="pl-pds">"</span>preset: rain; color: #24CAFF; particleCount: 5000<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-entity</span>&gt;
+
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-entity</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>sphere<span class="pl-pds">"</span></span> <span class="pl-e">geometry</span>=<span class="pl-s"><span class="pl-pds">"</span>primitive: sphere<span class="pl-pds">"</span></span>
+                <span class="pl-e">material</span>=<span class="pl-s"><span class="pl-pds">"</span>color: #EFEFEF; shader: flat<span class="pl-pds">"</span></span>
+                <span class="pl-e">position</span>=<span class="pl-s"><span class="pl-pds">"</span>0 0.15 -5<span class="pl-pds">"</span></span>
+                <span class="pl-e">light</span>=<span class="pl-s"><span class="pl-pds">"</span>type: point; intensity: 5<span class="pl-pds">"</span></span>
+                <span class="pl-e">animation</span>=<span class="pl-s"><span class="pl-pds">"</span>property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-entity</span>&gt;
+
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-entity</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>ocean<span class="pl-pds">"</span></span> <span class="pl-e">ocean</span>=<span class="pl-s"><span class="pl-pds">"</span>density: 20; width: 50; depth: 50; speed: 4<span class="pl-pds">"</span></span>
+                <span class="pl-e">material</span>=<span class="pl-s"><span class="pl-pds">"</span>color: #9CE3F9; opacity: 0.75; metalness: 0; roughness: 1<span class="pl-pds">"</span></span>
+                <span class="pl-e">rotation</span>=<span class="pl-s"><span class="pl-pds">"</span>-90 0 0<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-entity</span>&gt;
+
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-entity</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>sky<span class="pl-pds">"</span></span> <span class="pl-e">geometry</span>=<span class="pl-s"><span class="pl-pds">"</span>primitive: sphere; radius: 5000<span class="pl-pds">"</span></span>
+                <span class="pl-e">material</span>=<span class="pl-s"><span class="pl-pds">"</span>shader: gradient; topColor: 235 235 245; bottomColor: 185 185 210<span class="pl-pds">"</span></span>
+                <span class="pl-e">scale</span>=<span class="pl-s"><span class="pl-pds">"</span>-1 1 1<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-entity</span>&gt;
+
+      &lt;<span class="pl-ent">a</span><span class="pl-e">-entity</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>light<span class="pl-pds">"</span></span> <span class="pl-e">light</span>=<span class="pl-s"><span class="pl-pds">"</span>type: ambient; color: #888<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">a</span><span class="pl-e">-entity</span>&gt;
+    &lt;/<span class="pl-ent">a</span><span class="pl-e">-scene</span>&gt;
+  &lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+<h3><a id="user-content-builds" class="anchor" href="#builds" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Builds</h3>
+<p>To use the latest stable build of A-Frame, include <a href="https://aframe.io/releases/0.5.0/aframe.min.js"><code>aframe.min.js</code></a>:</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">&lt;</span>head<span class="pl-k">&gt;</span>
+  <span class="pl-k">&lt;</span>script src<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>https://aframe.io/releases/0.5.0/aframe.min.js<span class="pl-pds">"</span></span><span class="pl-k">&gt;&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span><span class="pl-k">/</span>head<span class="pl-k">&gt;</span></pre></div>
+<p>To check out the stable and master builds, see the <a href="/aframevr/aframe/blob/master/dist"><code>dist/</code> folder</a>.</p>
+<h3><a id="user-content-npm" class="anchor" href="#npm" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>npm</h3>
+<div class="highlight highlight-source-shell"><pre>npm install --save aframe
+<span class="pl-c"><span class="pl-c">#</span> Or yarn add --save aframe</span></pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>aframe<span class="pl-pds">'</span></span>)  <span class="pl-c"><span class="pl-c">//</span> e.g., with Browserify or Webpack.</span></pre></div>
+<h2><a id="user-content-local-development" class="anchor" href="#local-development" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Local Development</h2>
+<div class="highlight highlight-source-shell"><pre>git clone https://github.com/aframevr/aframe.git  <span class="pl-c"><span class="pl-c">#</span> Clone the repository.</span>
+<span class="pl-c1">cd</span> aframe <span class="pl-k">&amp;&amp;</span> npm install  <span class="pl-c"><span class="pl-c">#</span> Install dependencies.</span>
+npm start  <span class="pl-c"><span class="pl-c">#</span> Start the local development server.</span></pre></div>
+<p>And open in your browser <strong><a href="http://localhost:9000">http://localhost:9000</a></strong>.</p>
+<h3><a id="user-content-generating-builds" class="anchor" href="#generating-builds" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Generating Builds</h3>
+<div class="highlight highlight-source-shell"><pre>npm run dist</pre></div>
+<h2><a id="user-content-questions" class="anchor" href="#questions" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Questions</h2>
+<p>For questions and support, <a href="http://stackoverflow.com/questions/ask/?tags=aframe">ask on StackOverflow</a>.</p>
+<h2><a id="user-content-stay-in-touch" class="anchor" href="#stay-in-touch" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stay in Touch</h2>
+<ul>
+<li>To hang out with the community, <a href="https://aframevr-slack.herokuapp.com">join the A-Frame Slack</a>.</li>
+<li><a href="https://aframe.io/blog">Follow <code>A Week of A-Frame</code> on the A-Frame blog</a>.</li>
+<li><a href="https://twitter.com/aframevr">Follow @aframevr on Twitter</a>.</li>
+</ul>
+<h2><a id="user-content-contributing" class="anchor" href="#contributing" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>Get involved! Check out the <a href="/aframevr/aframe/blob/master/CONTRIBUTING.md">Contributing Guide</a> for how to get started.</p>
+<h2><a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p>This program is free software and is distributed under an <a href="/aframevr/aframe/blob/master/LICENSE">MIT License</a>.</p>
+</article>
+  </div>
+
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.22439s from github-fe136-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-8a4318ffea09a0cdb8214b76cf2926b9f6a0ced318a317bed419db19214c690d.js"></script>
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-6d109e75ad8471ba415082726c00c35fb929ceab975082492835f11eca8c07d9.js"></script>
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-a6e170e1a1432572f27d4c18936acbd70b123dc8cb36302095396fb6b2096b32.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
